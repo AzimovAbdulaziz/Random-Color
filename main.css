@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body
+{
+    transition: .9s;
+}
+#box
+{
+    background: white;
+    transition: .9s;
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 700px;
+    height: 500px;
+    border: 1px solid #666;
+    box-shadow: 20px 10px 25px 0 rgb(104, 110, 110);
+}
+.inputs
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login
+{
+    outline: none;
+    font-size: 20px;
+    font-family: monospace;
+    margin: 60px auto;
+    padding: 15px 100px ;
+}
+.password
+{
+    outline: none;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 15px 100px;
+}
+.btns
+{
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    flex-direction: row;
+}
+.btn1
+{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, yellow, orange);
+}
+.btn2
+{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    background: linear-gradient(90deg, yellow, orange);
+}
+.btn3
+{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    background: linear-gradient(90deg, yellow, orange);
+}
